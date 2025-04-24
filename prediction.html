@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FemAura PCOS Quiz</title>
+  <link rel="stylesheet" href="prediction.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="Logo_Femaura.png" alt="FemAura Logo" class="logo-img" />
+    </div>
+      
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="prediction.html">Predict PCOS?</a></li>
+          <li><a href="discussion.html">Discussion</a></li>
+          <li><a href="">FAQs</a></li>
+          
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <a href="login.html" class="btn-outline">Login</a>
+      </div>
+    </div>
+  </header>
+  <div class="quiz-container">
+    <div class="quiz-header">
+      <h2>PCOS Prediction</h2>
+      <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+      <p id="step-counter">STEP 1 OF X</p>
+    </div>
+    <div class="quiz-content" id="quiz-content">
+      <!-- Questions will be injected here -->
+    </div>
+    <div class="quiz-footer">
+      <button id="prevBtn" onclick="prevStep()">Back</button>
+      <button id="nextBtn" onclick="nextStep()">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

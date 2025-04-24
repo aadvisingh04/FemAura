@@ -1,0 +1,170 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #c6b8a7; /* Matches the beige-tan background */
+  color: #1c1c1c;
+}
+
+/* Navbar */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar {
+  background-color: white;
+  padding: 6px 20px;
+  width: 80%; /* Full width */
+  border-radius: 6px;
+  margin: 50px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.navbar-container {
+  width: auto;
+  max-width: 1200px; /* Or whatever width you prefer */
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  gap: 24px;
+  
+  
+}
+
+/* Logo */
+.logo-img {
+  height: 45px;
+  
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  padding: 0;
+  margin: 0;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #002d26;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+  
+}
+
+nav ul li a:hover {
+  color: #c56f9d;
+}
+
+/* Nav Buttons */
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-outline {
+  border: 1.5px solid #82344A;
+  background: white;
+  display: inline-block;
+  color: #82344A;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-outline:hover {
+  background-color: #d5839e;
+}
+
+.btn-filled {
+  background-color:white;
+  color: #82344A ;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.btn-filled:hover {
+  background-color: rgb(200, 107, 138);
+}
+
+
+/* Hero Section */
+.hero {
+  display: flex;
+  padding: 4rem 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  font-family: Georgia, serif;
+}
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+.hero-text .buttons button {
+  margin-right: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.hero-text .demo {
+  background-color: #004d42;
+  color: white;
+}
+.hero-text .explore {
+  background-color: white;
+  color: #007256;
+  border: 2px solid #007256;
+}
+.hero-image img {
+  max-width: 700px;
+  
+  object-fit: fill;
+  object-position: 0cap;
+  border-radius: 0px;
+}
+.bottom-text {
+  background-color: #fafdfb; /*light background*/
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.bottom-text p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #004f45; /* matches your theme */
+  line-height: 1.6;
+}

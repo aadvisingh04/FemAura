@@ -1,0 +1,191 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #672537, #ee9fc7);
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-container {
+  background: white;
+  border-radius: 12px;
+  padding: 30px 40px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  margin: 100px auto; /* This will center the quiz box and add space from top */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quiz-header h2 {
+  text-align: center;
+  color: #6f0a47;
+}
+
+.progress-bar {
+  background: #eee;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.progress {
+  background-color: #74194f;
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+#step-counter {
+  text-align: center;
+  font-size: 14px;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+}
+
+.question-card {
+  text-align: center;
+}
+
+.question-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.option {
+  padding: 15px 25px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option:hover {
+  border-color: #6d164a;
+}
+
+.option.selected {
+  background: #631b46;
+  color: white;
+  border-color: #6d174b;
+}
+
+.quiz-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.quiz-footer button {
+  padding: 10px 20px;
+  background-color: #6e1b4d;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.quiz-footer button:hover {
+  background-color: #933f70;
+}
+.navbar {
+  background-color: white;
+  padding: 6px 20px;
+  width: 80%; /* Full width */
+  border-radius: 6px;
+  margin: 50px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.navbar-container {
+  width: auto;
+  max-width: 1200px; /* Or whatever width you prefer */
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  gap: 24px;
+  
+  
+}
+/* Logo */
+.logo-img {
+  height: 45px;
+  
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #002d26;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+  
+}
+
+nav ul li a:hover {
+  color: #355fe9;
+}
+
+* Nav Buttons */
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-outline {
+  border: 1.5px solid #82344A;
+  background: white;
+  display: inline-block;
+  color: #82344A;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-outline:hover {
+  background-color: #d5839e;
+}
+
+.btn-filled {
+  background-color:white;
+  color: #82344A ;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.btn-filled:hover {
+  background-color: white;
+}
