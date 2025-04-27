@@ -11,20 +11,26 @@
 
 # 🩺 What is PCOS (Polycystic Ovarian Syndrome)? 
 > "One in five(20%) Indian women suffers from PCOS" ~ The Hindu.
-* PCOS stands for Polycystic Ovary Syndrome, a hormonal disorder that affects women of reproductive age.
-* Women with PCOS have small cysts or follicles on their ovaries, which can lead to hormonal imbalances and excess male hormones.
-* Symptoms of PCOS can include irregular periods or no periods at all, excessive hair growth on the face, chest, or abdomen, acne, and weight gain.
-* PCOS is caused by an excess of male hormones, known as androgens, in the body. **Insulin** resistance can also play a role in its development.
+* PCOS (Polycystic Ovary Syndrome) is a hormonal disorder affecting women of reproductive age.
+* It involves small ovarian cysts, hormonal imbalances, and excess androgens.
+* Common symptoms include irregular periods, excessive hair growth, acne, and weight gain.
+* Insulin resistance also contributes to its development.
+
 > PCOS is the leading cause of infertility in women.
 * In India, the incidence of PCOS is higher among urban women than rural women.
 * Liestyle changes, such as a healthy diet and regular exercise, can help manage PCOS symptoms.
 > while there is no cure for PCOS, early diagnosis and management can improve quality of life and prevent long-term health complications such as diabetes and heart disease.
 
 # 🌟 Features:
-* **PCOS Detection**: Detection using ML-based model which takes input from the user and gives the insights on whether they should take PCOS seriously and consult doctor.
-* **Symptom Tracking**: Track symptoms related to PCOS regularly to monitor health patterns and early indicators.
-* **Gynecologist AI Bot**: An intelligent chatbot that answers user queries, offers gynecological advice, and provides emotional support.
-* **Personalized Fitness and Nutrition Guidance**: Tailored fitness routines and diet recommendations designed to suit individual needs and promote a healthier lifestyle.
+* **PCOS Detection**: ML model analyzes user input to assess PCOS risk and recommend doctor consultation.
+
+* **Symptom Tracking**: Monitor PCOS-related symptoms to identify health patterns early.
+
+* **Gynecologist AI Bot**: Chatbot offering gynecological advice, answers, and emotional support.
+
+* **Personalized Fitness & Nutrition**: Customized fitness and diet plans for a healthier lifestyle.
+
+
 
 # 🔍 PCOS-Detection:
 | Model | Accuracy | 
