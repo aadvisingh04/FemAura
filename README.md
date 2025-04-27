@@ -1,4 +1,4 @@
-# FemAura - Balance within, Wellness beyond
+# 🛡️ FemAura - Balance within, Wellness beyond
 ### "Empowering women with PCOS through awareness and detection, personalized health tracking, and holistic well-being solutions."
 
 * What is PCOS(Polycystic Ovarian Syndrome)?
@@ -9,7 +9,7 @@
 * Future Plans for Project  
 * Team Members
 
-# What is PCOS (Polycystic Ovarian Syndrome)? 
+# 🩺 What is PCOS (Polycystic Ovarian Syndrome)? 
 > "One in five(20%) Indian women suffers from PCOS" ~ The Hindu.
 * PCOS stands for Polycystic Ovary Syndrome, a hormonal disorder that affects women of reproductive age.
 * Women with PCOS have small cysts or follicles on their ovaries, which can lead to hormonal imbalances and excess male hormones.
@@ -20,13 +20,13 @@
 * Liestyle changes, such as a healthy diet and regular exercise, can help manage PCOS symptoms.
 > while there is no cure for PCOS, early diagnosis and management can improve quality of life and prevent long-term health complications such as diabetes and heart disease.
 
-# Features:
-* PCOS Detection: Detection using ML-based model which takes input from the user and gives the insights on whether they should take PCOS seriously and consult doctor.
-* Symptom Tracking: Track symptoms related to PCOS regularly to monitor health patterns and early indicators.
-* Gynecologist AI Bot: An intelligent chatbot that answers user queries, offers gynecological advice, and provides emotional support.
-* Personalized Fitness and Nutrition Guidance: Tailored fitness routines and diet recommendations designed to suit individual needs and promote a healthier lifestyle.
+# 🌟 Features:
+* **PCOS Detection**: Detection using ML-based model which takes input from the user and gives the insights on whether they should take PCOS seriously and consult doctor.
+* **Symptom Tracking**: Track symptoms related to PCOS regularly to monitor health patterns and early indicators.
+* **Gynecologist AI Bot**: An intelligent chatbot that answers user queries, offers gynecological advice, and provides emotional support.
+* **Personalized Fitness and Nutrition Guidance**: Tailored fitness routines and diet recommendations designed to suit individual needs and promote a healthier lifestyle.
 
-# PCOS-Detection:
+# 🔍 PCOS-Detection:
 | Model | Accuracy | 
 | --- | --- |
 | Logistic Regression | 55% |
@@ -69,7 +69,7 @@
                 2) https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos?select=PCOS_infertility.csv
                 3) https://1drv.ms/x/c/9d3d9964f4e1f380/Ee4EfFiQc-tAnJfkqZh4UnYBheeAjAedgXtBv1rUE1vw7A?e=jHvsTO
 
-# Tech Stack:
+# 🛠️ Tech Stack:
 * Machine Learning-
   * Python: Pandas, Numpy, Sklearn, Matplotlib
   * Model: XG Boost + SMOTE
@@ -83,18 +83,18 @@
   * JWT and Firebase 
   * MongoDB
 
-# Glimpse of Project:
+# 📸 Glimpse of Project:
 ![Home-Page](images/home.jpg)
 ![Explore-Page](images/explore.jpg)
 ![Quiz-Page](images/quiz.jpg)
 ![Predict-Page](images/predict.jpg)
 
-# Future Vision of the Project:
-* Improved Accuracy: Incorporate advanced ensemble trained models and larger, diverse datasets.
-* Mobile App Integration: Enable real-time tracking and easier access to the users via smartphones.
-* SHAP Explainability: Help users understand model decisions clearly for transparency and trust. 
+# 🚀 Future Vision of the Project:
+* **Improved Accuracy**: Incorporate advanced ensemble trained models and larger, diverse datasets.
+* **Mobile App Integration**: Enable real-time tracking and easier access to the users via smartphones.
+* **SHAP Explainability**: Help users understand model decisions clearly for transparency and trust. 
 
-# Team Members
+# 👩‍💻 Team Members
 
 | Name | GitHub Profile |
 |:----:|:--------------:|
