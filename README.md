@@ -93,3 +93,11 @@
 * Improved Accuracy: Incorporate advanced ensemble trained models and larger, diverse datasets.
 * Mobile App Integration: Enable real-time tracking and easier access to the users via smartphones.
 * SHAP Explainability: Help users understand model decisions clearly for transparency and trust. 
+
+# Team Members
+
+| Name | GitHub Profile |
+|:----:|:--------------:|
+| Divyansh Trivedi | [@divyansh-trivedi](https://github.com/divyansh-trivedi) |
+| Aadvi Singh | [@aadvisingh04](https://github.com/aadvisingh04) |
+| Khushi Singh  | [@yourfriendgithub](https://github.com/Khushi-Singh25) |
