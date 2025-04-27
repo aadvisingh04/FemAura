@@ -100,4 +100,4 @@
 |:----:|:--------------:|
 | Divyansh Trivedi | [@divyansh-trivedi](https://github.com/divyansh-trivedi) |
 | Aadvi Singh | [@aadvisingh04](https://github.com/aadvisingh04) |
-| Khushi Singh  | [@yourfriendgithub](https://github.com/Khushi-Singh25) |
+| Khushi Singh  | [@Khushi-Singh25](https://github.com/Khushi-Singh25) |
